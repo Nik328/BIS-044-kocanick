@@ -14,3 +14,4 @@ DF2<-DF[which(DF$trip_distance > 10 |
 avg_dist <- mean(DF2$trip_distance)
 avg_cost <- mean(DF2$total_amount)
 cat("The average distance traveled by a person in a taxi cab in NYC in March of 2021 is" ,avg_dist, "miles while the average total cost for these trips was", avg_cost)
+#-10 wrong >< signs 90/100
